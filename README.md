@@ -1,6 +1,8 @@
 # GALAXY-AI-FOR-A35
 Magisk modules to enable and port Galaxy AI features on the Samsung Galaxy A35 5G
 
+![](assets/banner.png)
+
 ![Project Status](https://img.shields.io/badge/status-in--development-yellow)
 ![Platform](https://img.shields.io/badge/platform-Android%20(Samsung%20Galaxy%20A35)-blue)
 ![Requires](https://img.shields.io/badge/requires-Root%20(Magisk)-red)
