@@ -68,12 +68,12 @@ If you find this project helpful and want to support its continued development, 
 
 - **UPI (Supports International):** `mailboxofirshadahamed-1@okhdfcbank`
 
-   ![UPI QR Code](assets/upi-qr.png)
+   ![UPI QR Code](assets/upi-qr.jpg)
 
   
 - **Bitcoin (Lightning Wallet):** `curvymaid35@walletofsatoshi.com`
 
-   ![Lightning Wallet QR Code](assets/lightning-qr.png)
+   ![Lightning Wallet QR Code](assets/lightning-qr.jpg)
 
   
 ## 📂 Repository Structure
