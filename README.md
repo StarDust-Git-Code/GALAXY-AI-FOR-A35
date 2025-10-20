@@ -14,9 +14,9 @@ A collection of Magisk modules and system tweaks to enable, port, and enhance AI
 
 This project aims to bring a suite of AI-powered enhancements and hidden features to the Galaxy A35.
 
-- [ ] **UI Enhancements:** Enable system-wide blur effects and other visual tweaks.
-- [ ] **Generative AI Features:** Port or enable features like AI Wallpaper, Photo Remaster enhancements, and more.
-- [ ] **Performance Tweaks:** Optimize system properties for better performance on-device.
+- [✔] **UI Enhancements:** Enable system-wide blur effects and other visual tweaks.
+- [✔] **Generative AI Features:** Port or enable features like AI Wallpaper, Photo Remaster enhancements, and more.
+- [✔] **Performance Tweaks:** Optimize system properties for better performance on-device.
 
 ## ⚠️ Disclaimer
 
