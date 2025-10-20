@@ -1,34 +1,86 @@
-# Gradle files
-.gradle/
-build/
+# ####################
+# Magisk / Android Modding Specific
+# ####################
 
-# Local configuration file (sdk path, etc)
+# Ignore the final flashable zip files. These should be uploaded to GitHub Releases, not kept in the main repository.
+*.zip
+
+
+# ####################
+# Build Artifacts
+# ####################
+
+# Output directories for builds
+build/
+out/
+
+# NDK build output
+obj/
+libs/
+.cxx/
+
+
+# ####################
+# IDE and Editor Files
+# ####################
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Gradle
+.gradle/
+captures/
+build-cache/
+
+
+# ####################
+# Local Configuration
+# ####################
+
+# This file contains user-specific paths and should never be committed.
 local.properties
 
-# Log/OS Files
+
+# ####################
+# Operating System Junk Files
+# ####################
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+
+# ####################
+# Log and Temporary Files
+# ####################
+
 *.log
+*.tmp
+*.temp
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
-*.jks
+# ####################
+# Keystore files (if you ever sign anything)
+# ####################
 *.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+*.jks
