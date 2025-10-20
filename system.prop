@@ -1,0 +1,11 @@
+# This line is counter-productive, so it's commented out to disable it.
+#ro.sf.blurs_are_expensive=1
+
+# This is the ESSENTIAL line to enable blur, so it is left active.
+ro.surface_flinger.supports_background_blur=1
+
+# These are risky performance hacks, so they are commented out for safety.
+#debug.sf.latch_unsignaled=1
+#debug.sf.disable_backpressure=1
+fw.show_multiuser_ui=1
+fw.max_users=5
