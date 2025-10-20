@@ -1,0 +1,86 @@
+# ####################
+# Magisk / Android Modding Specific
+# ####################
+
+# Ignore the final flashable zip files. These should be uploaded to GitHub Releases, not kept in the main repository.
+*.zip
+
+
+# ####################
+# Build Artifacts
+# ####################
+
+# Output directories for builds
+build/
+out/
+
+# NDK build output
+obj/
+libs/
+.cxx/
+
+
+# ####################
+# IDE and Editor Files
+# ####################
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Gradle
+.gradle/
+captures/
+build-cache/
+
+
+# ####################
+# Local Configuration
+# ####################
+
+# This file contains user-specific paths and should never be committed.
+local.properties
+
+
+# ####################
+# Operating System Junk Files
+# ####################
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+
+# ####################
+# Log and Temporary Files
+# ####################
+
+*.log
+*.tmp
+*.temp
+
+
+# ####################
+# Keystore files (if you ever sign anything)
+# ####################
+*.keystore
+*.jks
