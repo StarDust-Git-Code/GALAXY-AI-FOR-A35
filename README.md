@@ -16,8 +16,7 @@ This project aims to bring a suite of AI-powered enhancements and hidden feature
 
 - [ ] **UI Enhancements:** Enable system-wide blur effects and other visual tweaks.
 - [ ] **Generative AI Features:** Port or enable features like AI Wallpaper, Photo Remaster enhancements, and more.
-- [ ] **Camera AI:** Unlock or improve camera post-processing features.
-- [ ] **Performance Tweaks:** Optimize system properties for better AI model performance on-device.
+- [ ] **Performance Tweaks:** Optimize system properties for better performance on-device.
 
 ## ⚠️ Disclaimer
 
@@ -37,7 +36,7 @@ Modifying your device's system files carries inherent risks. While these modules
 
 ## 🛠️ Installation
 
-1. Go to the [Releases](https://github.com/YOUR_USERNAME/Galaxy-AI-for-A35/releases) page of this repository.
+1. Go to the [Releases](https://github.com/StarDust-Git-Code/Galaxy-AI-for-A35/releases) page of this repository.
 2. Download the `.zip` file for the feature you want to install.
 3. Open the Magisk app on your phone.
 4. Go to the `Modules` tab.
