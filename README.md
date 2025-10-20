@@ -1,6 +1,8 @@
 # GALAXY-AI-FOR-A35
 Magisk modules to enable and port Galaxy AI features on the Samsung Galaxy A35 5G
 
+- > **Disclaimer:** This module only works with ONE UI 7. Trying this module in ONE UI 8 may cause a Bootloop.
+
 ![](assets/banner.png)
 
 ![Project Status](https://img.shields.io/badge/status-in--development-yellow)
