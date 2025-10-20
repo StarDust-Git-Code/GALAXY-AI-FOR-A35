@@ -15,7 +15,7 @@ A collection of Magisk modules and system tweaks to enable, port, and enhance AI
 This project aims to bring a suite of AI-powered enhancements and hidden features to the Galaxy A35.
 
 - [✔] **UI Enhancements:** Enable system-wide blur effects and other visual tweaks.
-- - > **Drawback:** Enabling live blur is GPU-intensive. You may notice a slight increase in device temperature and occasional lag in home screen animations. For this reason, the live blur has been intentionally limited to core system UI (like the widgets Blur) to avoid severe performance issues.
+ - > **Drawback:** Enabling live blur is GPU-intensive. You may notice a slight increase in device temperature and occasional lag in home screen animations. For this reason, the live blur has been intentionally limited to core system UI (like the widgets Blur) to avoid severe performance issues.
 - [✔] **Generative AI Features:** Port or enable features like AI Wallpaper, Photo Remaster enhancements, and more.
 - [✔] **Performance Tweaks:** Optimize system properties for better performance on-device.
 
