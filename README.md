@@ -15,8 +15,27 @@ A collection of Magisk modules and system tweaks to enable, port, and enhance AI
 This project aims to bring a suite of AI-powered enhancements and hidden features to the Galaxy A35.
 
 - [✔] **UI Enhancements:** Enable system-wide blur effects and other visual tweaks.
+- - > **Drawback:** Enabling live blur is GPU-intensive. You may notice a slight increase in device temperature and occasional lag in home screen animations. For this reason, the live blur has been intentionally limited to core system UI (like the widgets Blur) to avoid severe performance issues.
 - [✔] **Generative AI Features:** Port or enable features like AI Wallpaper, Photo Remaster enhancements, and more.
 - [✔] **Performance Tweaks:** Optimize system properties for better performance on-device.
+
+## 🐛 Known Bugs
+
+Please be aware of the following issues currently under investigation. If you can provide logs (`logcat`) for these crashes, please open an issue!
+
+- **Generative Move Crash:** Using the "Generative Move" feature in the photo editor to reposition objects may cause the Gallery app to force close.
+- **AI Cartoonizer Effect Crash:** Applying the AI-based "Cartoon" or "Toonify" effect from the Gallery labs or editor can result in a crash.
+- **General On-Device Processing Crash:** Some intensive, on-device AI tasks (like complex object removal or video effects) may crash intermittently. This is likely due to missing libraries.
+
+## 🗺️ Roadmap (Future Scope)
+
+Here are some of the features and improvements planned for the future:
+
+- [ ] **Porting Flagship Features:** Investigate porting more advanced AI features from the Galaxy S series, such as battery health ML or Live Translate, if feasible.
+- [ ] **AIO Module:** Develop an "All-in-One" Magisk module that combines the most popular tweaks into a single, easy-to-install package.
+- [ ] **Performance Profiles:** Create modules to enable different system performance profiles (e.g., "Battery Saver AI," "Max Performance AI").
+- [ ] **Deeper Camera Integration:** Explore modifications to the camera HAL or app to unlock hidden modes or improve image processing.
+- [ ] **Script-based Installer:** Develop a script that allows users to pick and choose which features they want to install.
 
 ## ⚠️ Disclaimer
 
@@ -43,6 +62,20 @@ Modifying your device's system files carries inherent risks. While these modules
 5. Tap `Install from storage` and select the downloaded `.zip` file.
 6. Reboot your device once the installation is complete.
 
+## 💖 Support This Project
+
+If you find this project helpful and want to support its continued development, please consider a small donation. It helps cover the costs of development and testing.
+
+- **UPI (Supports International):** `mailboxofirshadahamed-1@okhdfcbank`
+
+   ![UPI QR Code](assets/upi-qr.png)
+
+  
+- **Bitcoin (Lightning Wallet):** `curvymaid35@walletofsatoshi.com`
+
+   ![Lightning Wallet QR Code](assets/lightning-qr.png)
+
+  
 ## 📂 Repository Structure
 
 - **/modules**: Contains the individual, flashable Magisk module projects.
